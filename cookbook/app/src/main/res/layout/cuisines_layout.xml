@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/indian"
+        android:scaleType="centerInside" />
+    <TextView
+        android:id = "@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "American"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:gravity="center" />
+
+
+
+</LinearLayout>
